@@ -119,7 +119,7 @@ This tutorial outlines the prerequisites and installation of the open-source hel
 
 
 </p>
-<p>>
+<p>
 9.) Reload IIS. On the leeft hand side: Click the name of your VM (in my case it's "osTickeet-VM) Go to "Sites" -> Default Web Site -> osTicket -> "Browse*:80(http) on the right hand side
 <p>
 
@@ -140,7 +140,53 @@ Refresh the osTicket site in your browser, observe the changes
 <p>
 
 
-![Image 10-7-24 at 2 18 AM](https://github.com/user-attachments/assets/c8faceff-7878-4b48-b6fa-b33aa0eacda8)
+![Image 10-7-24 at 2 18 AM](https://github.com/user-attachments/assets/c8faceff-7878-4b48-b6fa-b33aa0eacda8)  ![image](https://github.com/user-attachments/assets/717dad65-04eb-4909-98af-ffa851da9810)  ![image](https://github.com/user-attachments/assets/b4a826ae-5ec2-4e88-8314-56418b3a10bd)
+
+
+
+</p>
+<p>
+11.) Rename: ost-config.php - From: C:\inetpub\wwwroot\osTicket\include\ost-sampleconfig.php To: C:\inetpub\wwwroot\osTicket\include\ost-config.php
+
+  Next, assign Permissions: ost-config.php
+Disable inheritance -> Remove All
+New Permissions -> Everyone -> All
+<p>
+
+
+![image](https://github.com/user-attachments/assets/e16a49af-2b7c-4c20-b758-762566436308)  ![image](https://github.com/user-attachments/assets/62dbe832-72d4-4d1d-a731-60da2d9338e8)  ![image](https://github.com/user-attachments/assets/5a259859-4f6b-45a8-b070-90ebbbb6a03b)
+
+
+
+</p>
+<p>
+12.) Install HeidiSQL from the osTicket-installation-folder
+  
+  - Once HeidiSQL is opened, create a new session and use the credentials we created earlier when we installed MySQL
+  - Create a database: right click "Unnamed" on the left hand side -> click "create new" -> name the database "osTicket"
+
+
+
+  ![image](https://github.com/user-attachments/assets/f60bc24a-9bb6-4bab-8bfb-3e4f944ff905)  ![image](https://github.com/user-attachments/assets/4f9ed675-64df-47ed-8fd4-b80c34795dad)  ![image](https://github.com/user-attachments/assets/e726688e-4e3d-4555-a1a3-8c0911994ef5)
+
+
+
+
+</p>
+<p>
+13.) Continue Setting up osTicket in the browser. Name your HelpDesk, create your admin profile, and for last portion (Database settings) enter the same information you entered when you created your session and database in HeidiSQL.
+<p>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
