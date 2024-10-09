@@ -178,6 +178,19 @@ New Permissions -> Everyone -> All
 <p>
 
 
+![Image 10-7-24 at 2 30 AM](https://github.com/user-attachments/assets/3ecf19ff-0d5e-4194-9368-352448f177ee)  ![Image 10-7-24 at 2 44 AM](https://github.com/user-attachments/assets/12193a0b-4f7c-4409-a240-30345fced43a)
+
+
+
+</p>
+<p>
+14.) CONGRATULATIONS!!! osTicket is now installed and ready for configuaration
+<p>
+
+
+![Image 10-7-24 at 2 47 AM](https://github.com/user-attachments/assets/8c390022-288a-4699-8000-32f31c902f4d)
+
+
 
 
 
